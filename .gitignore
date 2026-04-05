@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS/editor
+.DS_Store
+.vscode/
+
+# Generated outputs
+embeddings/*.npy
+embeddings/*.json
+models/*.pt
+data/*.conll
+report.pdf
