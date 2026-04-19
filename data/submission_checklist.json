@@ -1,0 +1,106 @@
+{
+  "required_files": {
+    "README": {
+      "exists": true,
+      "size_bytes": 4142
+    },
+    "notebook": {
+      "exists": true,
+      "size_bytes": 366
+    },
+    "scripts_commit3": {
+      "exists": true,
+      "size_bytes": 8479
+    },
+    "scripts_commit4": {
+      "exists": true,
+      "size_bytes": 5652
+    },
+    "scripts_commit5": {
+      "exists": true,
+      "size_bytes": 25180
+    },
+    "scripts_commit6": {
+      "exists": true,
+      "size_bytes": 12728
+    },
+    "scripts_commit7": {
+      "exists": true,
+      "size_bytes": 4475
+    },
+    "word2vec_utils": {
+      "exists": true,
+      "size_bytes": 9785
+    },
+    "annotation_utils": {
+      "exists": true,
+      "size_bytes": 14153
+    },
+    "sequence_models": {
+      "exists": true,
+      "size_bytes": 9117
+    },
+    "transformer_models": {
+      "exists": true,
+      "size_bytes": 8330
+    }
+  },
+  "artifacts": {
+    "tfidf_matrix": {
+      "exists": false,
+      "size_bytes": 0
+    },
+    "ppmi_matrix": {
+      "exists": false,
+      "size_bytes": 0
+    },
+    "word2vec_embeddings": {
+      "exists": false,
+      "size_bytes": 0
+    },
+    "pos_model": {
+      "exists": false,
+      "size_bytes": 0
+    },
+    "ner_model": {
+      "exists": false,
+      "size_bytes": 0
+    },
+    "transformer_model": {
+      "exists": false,
+      "size_bytes": 0
+    },
+    "pos_train": {
+      "exists": false,
+      "size_bytes": 0
+    },
+    "pos_test": {
+      "exists": false,
+      "size_bytes": 0
+    },
+    "ner_train": {
+      "exists": false,
+      "size_bytes": 0
+    },
+    "ner_test": {
+      "exists": false,
+      "size_bytes": 0
+    },
+    "report_pdf": {
+      "exists": false,
+      "size_bytes": 0
+    }
+  },
+  "notebook_execution": {
+    "exists": true,
+    "executed_code_cells": 0,
+    "total_code_cells": 0,
+    "all_code_cells_executed": false,
+    "all_code_cells_have_output": false
+  },
+  "notes": [
+    "If any artifact is missing, run the corresponding commit scripts in order.",
+    "Notebook should be re-run end-to-end before final submission packaging.",
+    "Ensure report.pdf is exported from your final write-up before zipping."
+  ]
+}
