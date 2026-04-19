@@ -11,6 +11,7 @@ __pycache__/
 # OS/editor
 .DS_Store
 .vscode/
+.tools/
 
 # Generated outputs
 embeddings/*.npy
@@ -18,3 +19,22 @@ embeddings/*.json
 models/*.pt
 data/*.conll
 report.pdf
+
+# Track required submission artifacts
+!embeddings/embeddings_w2v.npy
+!embeddings/word2idx.json
+!models/bilstm_pos.pt
+!models/bilstm_ner.pt
+!models/transformer_cls.pt
+!data/pos_train.conll
+!data/pos_test.conll
+!data/ner_train.conll
+!data/ner_test.conll
+!report.pdf
+
+# Keep oversized matrices out of regular GitHub git objects
+embeddings/tfidf_matrix.npy
+embeddings/ppmi_matrix.npy
+
+# Redundant generated artifacts
+models/attention_maps/
